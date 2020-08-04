@@ -1,0 +1,99 @@
+
+body{
+  margin: 0;
+  font-family: arial, sans-serif, arial, helvetica;
+}
+
+#cuerpo{
+  height: 100%;
+  background: url("bg_ex_page.jpg") repeat-x bottom;
+  text-align: center;
+}
+
+#cuerpo{
+  margin-top: 10px;
+}
+
+#logoBiblio{
+  text-align: center;
+  margin-top: 10%;
+}
+
+#ex_lnk_err{
+  border-top: 1px solid #cccccc;
+  color: #4c4030;
+  font-size: 1.4em;
+  padding: 10px;
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0%;
+}
+
+p a {
+  font-size: 1.2em;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #424b52;
+  color: #ffffff;
+}
+
+p a:hover {
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #bc0031;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5%;
+}
+
+li{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding-right: 15px;
+}
+li a {
+  text-decoration: none;
+  color: #424b52;
+  padding: 0 5px;
+  line-height: 1.5em;
+}
+
+.autoridades{
+  border-left: 5px solid #4285f4;
+}
+.escolares{
+  border-left: 5px solid #e95d0f;
+}
+.regional{
+  border-left: 5px solid #cea60d;
+}
+
+.publicas{
+  border-left: 5px solid #bc0031;
+}
+
+.autoridades a:hover{
+  color: #4285f4;
+}
+.escolares a:hover{
+  color: #e95d0f;
+}
+.regional a:hover{
+  color: #cea60d;
+}
+.publicas a:hover{
+  color: #bc0031;
+}
